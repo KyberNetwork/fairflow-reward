@@ -1,0 +1,1713 @@
+{
+  "campaignsData": [
+    {
+      "campaignId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "startTimestamp": "1764316800",
+      "endTimestamp": "4918694400",
+      "metadata": "arb_eg_261125_auto",
+      "salt": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "leaves": [
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100505",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "10114"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "96850",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "258784073354104",
+            "150226778115310"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97399",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "18060",
+            "12730"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97395",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "34068",
+            "20161"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "95016",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "354996",
+            "196495"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "99786",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "3590710",
+            "4173223"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98303",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "156616",
+            "308731"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "96716",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "35007526788053",
+            "11581262382404"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "99453",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "159778172048875",
+            "84627038341380"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97265",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "486457",
+            "438741"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "96257",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "20742",
+            "10045"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "96543",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "67645",
+            "65676"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100731",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "21264",
+            "53510"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98250",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "112155",
+            "118274"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98381",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "7155"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98360",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "41399426136062",
+            "88918066129069"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "89922",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "5173",
+            "5089"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100525",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "4123"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100923",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "14013",
+            "9358"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "96757",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "2507",
+            "1776"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "95020",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "169640620123420",
+            "114050589619937"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97916",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "60485828244522",
+            "18389258247302"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98162",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "47281749786710",
+            "12955554314209"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100279",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "21822948529",
+            "16268550408"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98163",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "312612",
+            "352026"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100636",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "2216",
+            "387"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100818",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "16687",
+            "11129"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98166",
+          "tokens": [
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "145"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "99226",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "35662"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "99788",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "468393",
+            "21432"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100550",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "48937",
+            "74157"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100749",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "74385",
+            "27312"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "96648",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "1021869",
+            "538363"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100176",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "217",
+            "837"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "95010",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "36625",
+            "156650"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98028",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "8217",
+            "566522"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "96712",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "54172649072820",
+            "57995361934045"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97359",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "42954622142024",
+            "96838105042024"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100236",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "12947",
+            "14081"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "99386",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "117753",
+            "2045"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97888",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "12236940779416",
+            "2766176773976"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100694",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "105099",
+            "88403"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97260",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "948",
+            "3200"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "99541",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "187961",
+            "203073"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97668",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "197285",
+            "187953"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "99228",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "76571",
+            "820"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97732",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "5260329157761",
+            "1573991814215"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "96714",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "215958810751089",
+            "128963815962772"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98027",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "380747",
+            "184983"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100141",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "58479",
+            "5982"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "96703",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "103735904769833",
+            "34209295836292"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98403",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "870176499752",
+            "3336511433448"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100620",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "119822",
+            "168250"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98537",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "442887",
+            "585076"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "99058",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "694762",
+            "844072"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100455",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "84058",
+            "8081"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "99733",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "67263",
+            "5291"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97918",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "41339079799157",
+            "10149116974434"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98255",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "13910416999837",
+            "4540006193635"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100043",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "27422",
+            "34269"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100609",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "29793",
+            "2019"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100690",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "2",
+            "4"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "96649",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "83743",
+            "277324"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97258",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "65695"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "96421",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "1489938",
+            "1495833"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97919",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "892288",
+            "996143"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "99677",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "50900",
+            "13496"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98644",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "315543440281762",
+            "18380420360400"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100825",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "531463",
+            "408276"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100412",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "250712",
+            "379022"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "96636",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "149",
+            "64"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "99056",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "396836",
+            "398693"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100903",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "552",
+            "369"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97358",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "61812",
+            "58291"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "96695",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "153266556656610",
+            "57001949519876"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "96713",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "59389533764715",
+            "59925949561388"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98443",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "49779",
+            "439"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "95015",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "326044",
+            "218709"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97472",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "988147",
+            "1116985"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97648",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "45815",
+            "34334"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "99387",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "3939",
+            "4708"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97492",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "810",
+            "736"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100448",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "57085",
+            "1340"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100591",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "527325",
+            "438700"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100047",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "11343",
+            "5597"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100512",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "233"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100809",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "8653",
+            "5771"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97619",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "1596838646675",
+            "8429500254494"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100894",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "217130",
+            "164130"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100734",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "8337177013597",
+            "6675696893581"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98249",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "158508879509966",
+            "67019919688230"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100038",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "824947",
+            "859133"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "96771",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "5428",
+            "27266"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97341",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "66011",
+            "60694"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98366",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "31646"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "99698",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "79234",
+            "20"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100767",
+          "tokens": [
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "11731"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "96510",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "66234",
+            "98544"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "96858",
+          "tokens": [
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "110425"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98399",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "88554",
+            "84184"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100783",
+          "tokens": [
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "61192"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97407",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "4874",
+            "28739"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98164",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "36133",
+            "36129"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97396",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "26126",
+            "23656"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98368",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "516231",
+            "463048"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97440",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "8613",
+            "14897"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98225",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "63527",
+            "46954"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98442",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "271553",
+            "321065"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100039",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "74830",
+            "6952"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100745",
+          "tokens": [
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "61211"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "96673",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "25741",
+            "95161"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97920",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "299435",
+            "312905"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98277",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "182102",
+            "242477"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100287",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "3045963",
+            "3530990"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100693",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "5081028547905",
+            "4080078546533"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "95018",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "94033662739469",
+            "79134634565336"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98640",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "36303593458913",
+            "2239629454253"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100807",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "430771",
+            "352918"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98942",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "21483",
+            "21903"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100761",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "5740",
+            "44433"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "99393",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "97719",
+            "3440"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100939",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "2442371",
+            "2331211"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100715",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "1037",
+            "2568"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100890",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "1106",
+            "738"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97194",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "22528"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "99189",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "15206",
+            "159"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100018",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "880118",
+            "1047402"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "101014",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "1927",
+            "1305"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "99499",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "4528",
+            "2115"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100015",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "25164021821515",
+            "14074455145457"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "99783",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "147910",
+            "154444"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97369",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "16764",
+            "16010"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98043",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "26714",
+            "57040"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "99117",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "70",
+            "5"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "97797",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "152328328190211",
+            "36900296122263"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100153",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "861226",
+            "927713"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "99831",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "294378",
+            "270044"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100757",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "8",
+            "63"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "96715",
+          "tokens": [
+            "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+          ],
+          "amounts": [
+            "272502489015803",
+            "90149836755307"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "98363",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "234381"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100812",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "8650",
+            "5769"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "96494",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "12984",
+            "65394"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "99946",
+          "tokens": [
+            "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+          ],
+          "amounts": [
+            "39394",
+            "40688"
+          ]
+        },
+        {
+          "erc721Addr": "0xd88f38f930b7952f2db2432cb002e7abbf3dd869",
+          "erc721Id": "100333",
+          "tokens": [
+            "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+          ],
+          "amounts": [
+            "122",
+            "1439"
+          ]
+        }
+      ]
+    }
+  ]
+}
