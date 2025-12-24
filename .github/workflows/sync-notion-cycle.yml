@@ -1,6 +1,9 @@
 name: Sync Notion Merkle files (weekly)
 
 on:
+  push:
+    branches:
+      - "**"
   schedule:
     # Friday 15:00 GMT+7 (08:00 UTC).
     - cron: "0 8 * * 5"
