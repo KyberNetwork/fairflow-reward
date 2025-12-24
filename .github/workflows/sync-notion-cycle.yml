@@ -94,10 +94,13 @@ jobs:
             if [ -n "$existing" ]; then
               echo "PR already exists for $branch: #$existing"
             else
+              body=$(printf '%s\n\n%s\n' \
+                "Automated sync from Notion." \
+                "Next: merge this PR before merging kyber-applications PR (raw URLs must exist on main).")
               if ! out=$(gh pr create \
                 --repo KyberNetwork/fairflow-reward \
                 --title "Cycle ${{ steps.cycle.outputs.next_cycle }} merkle files" \
-                --body "Automated sync from Notion.\n\nNext: merge this PR before merging kyber-applications PR (raw URLs must exist on main)." \
+                --body "$body" \
                 --base main \
                 --head "$branch" 2>&1); then
                 if echo "$out" | grep -qi "already exists"; then
@@ -143,7 +146,7 @@ jobs:
           set -euo pipefail
           cd /tmp/kyber-applications
           if git status --porcelain | grep -q .; then
-            branch="bot/new-cycle-${{ steps.cycle.outputs.next_cycle }}"
+            branch="bot/reward-service-new-cycle-${{ steps.cycle.outputs.next_cycle }}"
             git fetch origin "$branch" || true
             git checkout -B "$branch"
             git add -A
@@ -160,11 +163,14 @@ jobs:
             if [ -n "$existing" ]; then
               echo "PR already exists for $branch: #$existing"
             else
+              body=$(printf '%s\n\n%s\n' \
+                "Updates core/reward-service/api/public/values.yaml by URL string replacement only." \
+                "WARNING: Merge fairflow-reward PR first, otherwise raw URLs may 404.")
               if ! out=$(gh pr create \
                 --repo KyberNetwork/kyber-applications \
                 --title "KEM: add cycle ${{ steps.cycle.outputs.next_cycle }} URLs" \
-                --body "Updates core/reward-service/api/public/values.yaml by URL string replacement only.\n\nWARNING: Merge fairflow-reward PR first, otherwise raw URLs may 404." \
-                --base main \
+                --body "$body" \
+                --base release \
                 --head "$branch" 2>&1); then
                 if echo "$out" | grep -qi "already exists"; then
                   echo "$out"
