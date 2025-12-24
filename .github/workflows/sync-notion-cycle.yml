@@ -84,8 +84,11 @@ jobs:
             git commit -m "Add merkle files for cycle ${{ steps.cycle.outputs.next_cycle }}"
             git push -u origin "$branch" --force
 
-            if gh pr view --repo KyberNetwork/fairflow-reward --head "KyberNetwork:$branch" >/dev/null 2>&1; then
-              echo "PR already exists for $branch."
+            existing=$(gh pr list --repo KyberNetwork/fairflow-reward \
+              --head "KyberNetwork:$branch" --base main --state open \
+              --json number --jq '.[0].number')
+            if [ -n "$existing" ]; then
+              echo "PR already exists for $branch: #$existing"
             else
               gh pr create \
                 --repo KyberNetwork/fairflow-reward \
@@ -134,8 +137,11 @@ jobs:
             git commit -m "Update KEM DistributorCampaigns for cycle ${{ steps.cycle.outputs.next_cycle }}"
             git push -u origin "$branch" --force
 
-            if gh pr view --repo KyberNetwork/kyber-applications --head "KyberNetwork:$branch" >/dev/null 2>&1; then
-              echo "PR already exists for $branch."
+            existing=$(gh pr list --repo KyberNetwork/kyber-applications \
+              --head "KyberNetwork:$branch" --base main --state open \
+              --json number --jq '.[0].number')
+            if [ -n "$existing" ]; then
+              echo "PR already exists for $branch: #$existing"
             else
               gh pr create \
                 --repo KyberNetwork/kyber-applications \
