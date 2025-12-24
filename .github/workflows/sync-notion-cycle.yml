@@ -84,18 +84,31 @@ jobs:
             git commit -m "Add merkle files for cycle ${{ steps.cycle.outputs.next_cycle }}"
             git push -u origin "$branch" --force
 
-            existing=$(gh pr list --repo KyberNetwork/fairflow-reward \
-              --head "KyberNetwork:$branch" --base main --state open \
-              --json number --jq '.[0].number')
+            existing=$(gh pr list --repo KyberNetwork/fairflow-reward --state open \
+              --json number,headRefName,headRepositoryOwner \
+              --jq '[.[] | select(.headRefName=="'"$branch"'" and .headRepositoryOwner.login=="KyberNetwork")][0].number' \
+              2>/dev/null || true)
+            if [ "$existing" = "null" ]; then
+              existing=""
+            fi
             if [ -n "$existing" ]; then
               echo "PR already exists for $branch: #$existing"
             else
-              gh pr create \
+              if ! out=$(gh pr create \
                 --repo KyberNetwork/fairflow-reward \
                 --title "Cycle ${{ steps.cycle.outputs.next_cycle }} merkle files" \
                 --body "Automated sync from Notion.\n\nNext: merge this PR before merging kyber-applications PR (raw URLs must exist on main)." \
                 --base main \
-                --head "$branch"
+                --head "$branch" 2>&1); then
+                if echo "$out" | grep -qi "already exists"; then
+                  echo "$out"
+                else
+                  echo "$out"
+                  exit 1
+                fi
+              else
+                echo "$out"
+              fi
             fi
           else
             echo "No changes; nothing to PR."
@@ -137,18 +150,31 @@ jobs:
             git commit -m "Update KEM DistributorCampaigns for cycle ${{ steps.cycle.outputs.next_cycle }}"
             git push -u origin "$branch" --force
 
-            existing=$(gh pr list --repo KyberNetwork/kyber-applications \
-              --head "KyberNetwork:$branch" --base main --state open \
-              --json number --jq '.[0].number')
+            existing=$(gh pr list --repo KyberNetwork/kyber-applications --state open \
+              --json number,headRefName,headRepositoryOwner \
+              --jq '[.[] | select(.headRefName=="'"$branch"'" and .headRepositoryOwner.login=="KyberNetwork")][0].number' \
+              2>/dev/null || true)
+            if [ "$existing" = "null" ]; then
+              existing=""
+            fi
             if [ -n "$existing" ]; then
               echo "PR already exists for $branch: #$existing"
             else
-              gh pr create \
+              if ! out=$(gh pr create \
                 --repo KyberNetwork/kyber-applications \
                 --title "KEM: add cycle ${{ steps.cycle.outputs.next_cycle }} URLs" \
                 --body "Updates core/reward-service/api/public/values.yaml by URL string replacement only.\n\nWARNING: Merge fairflow-reward PR first, otherwise raw URLs may 404." \
                 --base main \
-                --head "$branch"
+                --head "$branch" 2>&1); then
+                if echo "$out" | grep -qi "already exists"; then
+                  echo "$out"
+                else
+                  echo "$out"
+                  exit 1
+                fi
+              else
+                echo "$out"
+              fi
             fi
           else
             echo "No kyber-applications changes; nothing to PR."
