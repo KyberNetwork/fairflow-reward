@@ -116,9 +116,8 @@ jobs:
             exit 0
           fi
 
-          cd /tmp/kyber-applications
-          go run "$GITHUB_WORKSPACE/cmd/update-kyber-applications" \
-            --values "core/reward-service/api/public/values.yaml" \
+          go run ./cmd/update-kyber-applications \
+            --values "/tmp/kyber-applications/core/reward-service/api/public/values.yaml" \
             --cycle-dir "$GITHUB_WORKSPACE/$dir" \
             --raw-prefix "https://raw.githubusercontent.com/KyberNetwork/fairflow-reward/refs/heads/main"
 
