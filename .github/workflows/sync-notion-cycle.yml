@@ -77,7 +77,7 @@ jobs:
             branch="bot/cycle-${{ steps.cycle.outputs.next_cycle }}"
             git fetch origin "$branch" || true
             git checkout -B "$branch"
-            git add -A
+            git add "cycle-${{ steps.cycle.outputs.next_cycle }}"
             git commit -m "Add merkle files for cycle ${{ steps.cycle.outputs.next_cycle }}"
             git push -u origin "$branch" --force
 
@@ -118,7 +118,7 @@ jobs:
         run: |
           set -euo pipefail
           rm -rf /tmp/kyber-applications
-          gh repo clone KyberNetwork/kyber-applications /tmp/kyber-applications
+          gh repo clone KyberNetwork/kyber-applications /tmp/kyber-applications -- --depth 1 --single-branch --filter=blob:none
           cd /tmp/kyber-applications
           git config user.name "kyber-ci-bot"
           git config user.email "kyber-ci-bot@users.noreply.github.com"
@@ -146,7 +146,7 @@ jobs:
             branch="bot/reward-service-new-cycle-${{ steps.cycle.outputs.next_cycle }}"
             git fetch origin "$branch" || true
             git checkout -B "$branch"
-            git add -A
+            git add "core/reward-service/api/public/values.yaml"
             git commit -m "Update KEM DistributorCampaigns for cycle ${{ steps.cycle.outputs.next_cycle }}"
             git push -u origin "$branch" --force
 
