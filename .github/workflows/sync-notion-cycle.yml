@@ -79,14 +79,10 @@ jobs:
           if git status --porcelain | grep -q .; then
             branch="bot/cycle-${{ steps.cycle.outputs.next_cycle }}"
             git fetch origin "$branch" || true
-            if git show-ref --verify --quiet "refs/remotes/origin/$branch"; then
-              git checkout -B "$branch" "origin/$branch"
-            else
-              git checkout -B "$branch"
-            fi
+            git checkout -B "$branch"
             git add -A
             git commit -m "Add merkle files for cycle ${{ steps.cycle.outputs.next_cycle }}"
-            git push -u origin "$branch" --force-with-lease
+            git push -u origin "$branch" --force
 
             if gh pr view --repo KyberNetwork/fairflow-reward --head "$branch" >/dev/null 2>&1; then
               echo "PR already exists for $branch."
@@ -133,14 +129,10 @@ jobs:
           if git status --porcelain | grep -q .; then
             branch="bot/new-cycle-${{ steps.cycle.outputs.next_cycle }}"
             git fetch origin "$branch" || true
-            if git show-ref --verify --quiet "refs/remotes/origin/$branch"; then
-              git checkout -B "$branch" "origin/$branch"
-            else
-              git checkout -B "$branch"
-            fi
+            git checkout -B "$branch"
             git add -A
             git commit -m "Update KEM DistributorCampaigns for cycle ${{ steps.cycle.outputs.next_cycle }}"
-            git push -u origin "$branch" --force-with-lease
+            git push -u origin "$branch" --force
 
             if gh pr view --repo KyberNetwork/kyber-applications --head "$branch" >/dev/null 2>&1; then
               echo "PR already exists for $branch."
