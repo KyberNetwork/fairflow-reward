@@ -1,0 +1,278 @@
+name: Sync Notion Merkle files (weekly)
+
+on:
+  schedule:
+    # Friday 12:00 GMT+7 (05:00 UTC).
+    - cron: "0 5 * * 5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GH_PAT }}
+      GH_PAT: ${{ secrets.GH_PAT }}
+      GH_USER: kyber-ci-bot
+      NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+      NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+
+    steps:
+      - name: Checkout fairflow-reward
+        uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Configure git identity
+        run: |
+          git config user.name "kyber-ci-bot"
+          git config user.email "kyber-ci-bot@users.noreply.github.com"
+
+      - name: Setup Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: "1.25.x"
+
+      - name: Enable git auth for GH CLI
+        run: gh auth setup-git
+
+      - name: Compute next cycle from folders
+        id: cycle
+        run: |
+          set -euo pipefail
+          max=0
+          for d in cycle-*; do
+            [ -d "$d" ] || continue
+            n="${d#cycle-}"
+            if [[ "$n" =~ ^[0-9]+$ ]] && [ "$n" -gt "$max" ]; then max="$n"; fi
+          done
+          next=$((max+1))
+          echo "next_cycle=$next" >> "$GITHUB_OUTPUT"
+          echo "Next cycle: $next"
+
+      - name: Download Cycle files from Notion
+        run: |
+          set -euo pipefail
+          go run ./cmd/notion-sync \
+            --database-id "$NOTION_DATABASE_ID" \
+            --cycle "${{ steps.cycle.outputs.next_cycle }}" \
+            --out-dir "." \
+            --mapping "config/notion_mappings.json" \
+            --allow-existing \
+            --prop-title "Task name" \
+            --prop-chain "Chain" \
+            --prop-type "Type" \
+            --prop-file "Merkle file"
+
+      - name: Create or update PR in fairflow-reward
+        id: pr_fairflow
+        run: |
+          set -euo pipefail
+          if git status --porcelain | grep -q .; then
+            branch="bot/cycle-${{ steps.cycle.outputs.next_cycle }}"
+            git fetch origin "$branch" || true
+            git checkout -B "$branch"
+            git add "cycle-${{ steps.cycle.outputs.next_cycle }}"
+            git commit -m "Add merkle files for cycle ${{ steps.cycle.outputs.next_cycle }}"
+            git push -u origin "$branch" --force
+
+            existing=$(gh pr list --repo KyberNetwork/fairflow-reward --state open \
+              --json number,headRefName,headRepositoryOwner \
+              --jq '[.[] | select(.headRefName=="'"$branch"'" and .headRepositoryOwner.login=="KyberNetwork")][0].number' \
+              2>/dev/null || true)
+            if [ "$existing" = "null" ]; then
+              existing=""
+            fi
+            if [ -n "$existing" ]; then
+              echo "PR already exists for $branch: #$existing"
+            else
+              body=$(printf '%s\n\n%s\n' \
+                "Automated sync from Notion." \
+                "Next: merge this PR before merging kyber-applications PR (raw URLs must exist on main).")
+              if ! out=$(gh pr create \
+                --repo KyberNetwork/fairflow-reward \
+                --title "Cycle ${{ steps.cycle.outputs.next_cycle }} merkle files" \
+                --body "$body" \
+                --base main \
+                --head "$branch" 2>&1); then
+                if echo "$out" | grep -qi "already exists"; then
+                  echo "$out"
+                else
+                  echo "$out"
+                  exit 1
+                fi
+              else
+                echo "$out"
+              fi
+            fi
+          else
+            echo "No changes; nothing to PR."
+          fi
+
+      - name: Get latest semver tag from reward-service (ignore vtest-*)
+        id: rs_tag
+        run: |
+          set -euo pipefail
+          latest=$(gh api repos/KyberNetwork/reward-service/tags --paginate --jq '.[].name' \
+            | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' \
+            | sort -V \
+            | tail -n 1)
+          if [ -z "$latest" ]; then
+            echo "No semver tags found"
+            exit 1
+          fi
+          echo "latest=$latest" >> "$GITHUB_OUTPUT"
+          echo "Latest reward-service tag: $latest"
+
+      - name: Build release version
+        id: version
+        run: |
+          set -euo pipefail
+          version="${{ steps.rs_tag.outputs.latest }}-bot-kem-${{ steps.cycle.outputs.next_cycle }}"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "Version: $version"
+
+      - name: Clone kyber-applications
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/kyber-applications
+          gh repo clone KyberNetwork/kyber-applications /tmp/kyber-applications -- --depth 1 --single-branch --filter=blob:none
+          cd /tmp/kyber-applications
+          git config user.name "kyber-ci-bot"
+          git config user.email "kyber-ci-bot@users.noreply.github.com"
+
+      - name: Update kyber-applications values.yaml (URL replace only)
+        run: |
+          set -euo pipefail
+          cycle="${{ steps.cycle.outputs.next_cycle }}"
+          dir="cycle-$cycle"
+          if [ ! -d "$dir" ]; then
+            echo "Cycle directory not found at $dir (likely no downloads). Skipping kyber-applications PR."
+            exit 0
+          fi
+
+          go run ./cmd/update-kyber-applications \
+            --values "/tmp/kyber-applications/core/reward-service/api/public/values.yaml" \
+            --cycle-dir "$GITHUB_WORKSPACE/$dir" \
+            --raw-prefix "https://raw.githubusercontent.com/KyberNetwork/fairflow-reward/refs/heads/main"
+
+      - name: Create or update PR in kyber-applications
+        run: |
+          set -euo pipefail
+          cd /tmp/kyber-applications
+          if git status --porcelain | grep -q .; then
+            branch="bot/reward-service-new-cycle-${{ steps.cycle.outputs.next_cycle }}"
+            git fetch origin "$branch" || true
+            git checkout -B "$branch"
+            git add "core/reward-service/api/public/values.yaml"
+            git commit -m "Update KEM DistributorCampaigns for cycle ${{ steps.cycle.outputs.next_cycle }}"
+            git push -u origin "$branch" --force
+
+            existing=$(gh pr list --repo KyberNetwork/kyber-applications --state open \
+              --json number,headRefName,headRepositoryOwner \
+              --jq '[.[] | select(.headRefName=="'"$branch"'" and .headRepositoryOwner.login=="KyberNetwork")][0].number' \
+              2>/dev/null || true)
+            if [ "$existing" = "null" ]; then
+              existing=""
+            fi
+            if [ -n "$existing" ]; then
+              echo "PR already exists for $branch: #$existing"
+            else
+            body=$(printf '%s\n\n%s\n%s\n' \
+                "Updates core/reward-service/api/public/values.yaml by URL string replacement only." \
+                "> [!WARNING]" \
+                "> Merge fairflow-reward PR first. Then merge this PR and run the workflow `release` with version = ${{ steps.version.outputs.version }}.")
+              if ! out=$(gh pr create \
+                --repo KyberNetwork/kyber-applications \
+                --title "KEM: add cycle ${{ steps.cycle.outputs.next_cycle }} URLs" \
+                --body "$body" \
+                --base release \
+                --head "$branch" 2>&1); then
+                if echo "$out" | grep -qi "already exists"; then
+                  echo "$out"
+                else
+                  echo "$out"
+                  exit 1
+                fi
+              else
+                echo "$out"
+              fi
+            fi
+          else
+            echo "No kyber-applications changes; nothing to PR."
+          fi
+      - name: Clone kyber-infra-v2
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/kyber-infra-v2
+          gh repo clone KyberNetwork/kyber-infra-v2 /tmp/kyber-infra-v2 -- --depth 1 --single-branch --filter=blob:none
+          cd /tmp/kyber-infra-v2
+          git config user.name "kyber-ci-bot"
+          git config user.email "kyber-ci-bot@users.noreply.github.com"
+
+      - name: Update targetRevision in kyber-infra-v2
+        run: |
+          set -euo pipefail
+          cd /tmp/kyber-infra-v2
+          file="apps/production/core/reward-service/api/public/app.yaml"
+          new="core/reward-service/${{ steps.version.outputs.version }}"
+
+          # Replace just the targetRevision line (preserve indentation).
+          if ! grep -qE '^[[:space:]]*targetRevision:[[:space:]]*' "$file"; then
+            echo "targetRevision not found in $file"
+            exit 1
+          fi
+          current=$(grep -E '^[[:space:]]*targetRevision:' "$file" | head -1 | sed -E 's/^[[:space:]]*targetRevision:[[:space:]]*//')
+          if [ "$current" = "$new" ]; then
+            echo "targetRevision already set to $new; skipping update."
+            exit 0
+          fi
+          sed -i -E "s|^([[:space:]]*targetRevision:[[:space:]]*).*$|\\1${new}|" "$file"
+
+          git diff -- "$file"
+
+      - name: Create PR in kyber-infra-v2 (if changed)
+        run: |
+          set -euo pipefail
+          cd /tmp/kyber-infra-v2
+          if git status --porcelain | grep -q .; then
+            branch="bot/reward-service-${{ steps.version.outputs.version }}"
+            git fetch origin "$branch" || true
+            git checkout -B "$branch"
+            git add "apps/production/core/reward-service/api/public/app.yaml"
+            git commit -m "Bump reward-service to ${{ steps.version.outputs.version }}"
+            git push -u origin "$branch" --force
+
+            existing=$(gh pr list --repo KyberNetwork/kyber-infra-v2 --state open \
+              --json number,headRefName,headRepositoryOwner \
+              --jq '[.[] | select(.headRefName=="'"$branch"'" and .headRepositoryOwner.login=="KyberNetwork")][0].number' \
+              2>/dev/null || true)
+            if [ "$existing" = "null" ]; then
+              existing=""
+            fi
+            if [ -n "$existing" ]; then
+              echo "PR already exists for $branch: #$existing"
+            else
+              body=$(printf '%s\n' "Auto-generated after kyber-applications KEM config merge.")
+              if ! out=$(gh pr create \
+                --repo KyberNetwork/kyber-infra-v2 \
+                --title "core/reward-service: bump to ${{ steps.version.outputs.version }}" \
+                --body "$body" \
+                --base main \
+                --head "$branch" 2>&1); then
+                if echo "$out" | grep -qi "already exists"; then
+                  echo "$out"
+                else
+                  echo "$out"
+                  exit 1
+                fi
+              else
+                echo "$out"
+              fi
+            fi
+          else
+            echo "No infra changes; nothing to PR."
+          fi

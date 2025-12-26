@@ -1,0 +1,12 @@
+{
+  "chains": {
+    "Ethereum": "1",
+    "Arbitrum": "42161",
+    "Bsc": "56",
+    "Base": "8453"
+  },
+  "types": {
+    "EG sharing": "EG",
+    "LM reward": "LM"
+  }
+}
