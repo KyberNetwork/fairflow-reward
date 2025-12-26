@@ -2,8 +2,8 @@ name: Sync Notion Merkle files (weekly)
 
 on:
   schedule:
-    # Friday 15:00 GMT+7 (08:00 UTC).
-    - cron: "0 8 * * 5"
+    # Friday 12:00 GMT+7 (05:00 UTC).
+    - cron: "0 5 * * 5"
   workflow_dispatch: {}
 
 permissions:
