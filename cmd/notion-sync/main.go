@@ -197,15 +197,12 @@ func main() {
 		notionVersion = flag.String("notion-version", notionAPIVersion, "Notion API version for Notion-Version header")
 		allowExisting = flag.Bool("allow-existing", false, "allow existing cycle directory (re-download and overwrite files)")
 
-		propTitle  = flag.String("prop-title", "Task name", "Title property name")
-		propStatus = flag.String("prop-status", "Status", "Status property name")
-		propChain  = flag.String("prop-chain", "Chain", "Select property name")
-		propType   = flag.String("prop-type", "Type", "Multi-select property name")
-		propFile   = flag.String("prop-file", "Merkle file", "Files property name")
+		propTitle = flag.String("prop-title", "Task name", "Title property name")
+		propChain = flag.String("prop-chain", "Chain", "Select property name")
+		propType  = flag.String("prop-type", "Type", "Multi-select property name")
+		propFile  = flag.String("prop-file", "Merkle file", "Files property name")
 
-		statusDone = flag.String("status-done", "Done", "Status value to match")
-		statusType = flag.String("status-type", "status", "Status property type (status or select)")
-		pageSize   = flag.Int("page-size", 100, "Notion query page_size")
+		pageSize = flag.Int("page-size", 100, "Notion query page_size")
 	)
 	flag.Parse()
 
@@ -214,9 +211,6 @@ func main() {
 	}
 	if *notionToken == "" {
 		fatal(errors.New("missing Notion token (set NOTION_TOKEN or --notion-token)"))
-	}
-	if *statusType != "status" && *statusType != "select" {
-		fatal(fmt.Errorf("invalid --status-type %q (must be status or select)", *statusType))
 	}
 
 	var m Mapping
@@ -251,12 +245,6 @@ func main() {
 		}
 	}
 
-	statusFilter := map[string]any{"equals": *statusDone}
-	filterStatus := map[string]any{
-		"property":  *propStatus,
-		*statusType: statusFilter,
-	}
-
 	body := map[string]any{
 		"page_size": *pageSize,
 		"filter": map[string]any{
@@ -267,7 +255,6 @@ func main() {
 						"contains": cycleStr,
 					},
 				},
-				filterStatus,
 				map[string]any{
 					"property": *propFile,
 					"files": map[string]any{
