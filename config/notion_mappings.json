@@ -3,7 +3,8 @@
     "Ethereum": "1",
     "Arbitrum": "42161",
     "Bsc": "56",
-    "Base": "8453"
+    "Base": "8453",
+    "Monad": "143"
   },
   "types": {
     "EG sharing": "EG",
