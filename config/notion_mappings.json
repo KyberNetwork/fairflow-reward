@@ -4,7 +4,8 @@
     "Arbitrum": "42161",
     "Bsc": "56",
     "Base": "8453",
-    "Monad": "143"
+    "Monad": "143",
+    "Robinhood": "4663"
   },
   "types": {
     "EG sharing": "EG",
