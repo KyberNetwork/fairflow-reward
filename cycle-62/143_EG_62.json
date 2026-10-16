@@ -1,0 +1,73 @@
+{
+  "startTimestamp": "1792137600",
+  "endTimestamp": "4947724800",
+  "metadata": "monad_eg",
+  "salt": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "userDatas": [
+    {
+      "leaf": {
+        "erc721Addr": "0x5b7ec4a94ff9bedb700fb82ab09d5846972f4016",
+        "erc721Id": "173848",
+        "tokens": [
+          "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+          "0x754704bc059f8c67012fed69bc8a327a5aafb603"
+        ],
+        "amounts": [
+          "3291057",
+          "4133682"
+        ]
+      },
+      "proof": [
+        "0xd378fc3e906c95da3f8e69abd1716c3d273c22fe1ed42fc75c4c20cf49def206"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x5b7ec4a94ff9bedb700fb82ab09d5846972f4016",
+        "erc721Id": "360948",
+        "tokens": [
+          "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+          "0x754704bc059f8c67012fed69bc8a327a5aafb603"
+        ],
+        "amounts": [
+          "91",
+          "96"
+        ]
+      },
+      "proof": [
+        "0x59fa5731383a9cf0d443b2e2d0c87e7845263854240b4dadb11139b3bf8f79bd",
+        "0xe8a33f162e8aa6b83e9dc77949c512455bddd5888d85ed99e576cb001011d7ec"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x5b7ec4a94ff9bedb700fb82ab09d5846972f4016",
+        "erc721Id": "4169",
+        "tokens": [
+          "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+          "0x754704bc059f8c67012fed69bc8a327a5aafb603"
+        ],
+        "amounts": [
+          "7522194",
+          "7931494"
+        ]
+      },
+      "proof": [
+        "0xd2bd78cffb2c22c8961136d6be2f5ef7999fa7495557f1639e60106e73203750",
+        "0xe8a33f162e8aa6b83e9dc77949c512455bddd5888d85ed99e576cb001011d7ec"
+      ]
+    }
+  ],
+  "tree": [
+    "0x035a6755d7ac01163693abc0769ce14f5377af3cd494dc3915c8408cc91dfdc4",
+    "0xd378fc3e906c95da3f8e69abd1716c3d273c22fe1ed42fc75c4c20cf49def206",
+    "0xe8a33f162e8aa6b83e9dc77949c512455bddd5888d85ed99e576cb001011d7ec",
+    "0xd2bd78cffb2c22c8961136d6be2f5ef7999fa7495557f1639e60106e73203750",
+    "0x59fa5731383a9cf0d443b2e2d0c87e7845263854240b4dadb11139b3bf8f79bd"
+  ],
+  "root": "0x035a6755d7ac01163693abc0769ce14f5377af3cd494dc3915c8408cc91dfdc4",
+  "totalAmounts": {
+    "0x00000000efe302beaa2b3e6e1b18d08d69a9012a": "10813342",
+    "0x754704bc059f8c67012fed69bc8a327a5aafb603": "12065272"
+  }
+}
