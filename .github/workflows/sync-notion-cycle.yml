@@ -144,7 +144,7 @@ jobs:
           git config user.name "kyber-ci-bot"
           git config user.email "kyber-ci-bot@users.noreply.github.com"
 
-      - name: Update kyber-applications values.yaml (URL replace only)
+      - name: Update kyber-applications values.yaml (active campaign only)
         run: |
           set -euo pipefail
           cycle="${{ steps.cycle.outputs.next_cycle }}"
@@ -182,7 +182,7 @@ jobs:
               echo "PR already exists for $branch: #$existing"
             else
             body=$(printf '%s\n\n%s\n%s\n' \
-                "Updates aws-apse1-inveng-cluster/reward-service/api-public/values.yaml by URL string replacement only." \
+                "Updates aws-apse1-inveng-cluster/reward-service/api-public/values.yaml: the new cycle file is prepended to the campaign pinned to each chain's active distributor. Deprecated campaigns are frozen and left untouched." \
                 "> [!WARNING]" \
                 "> Merge fairflow-reward PR first. Then merge this PR and run the workflow `release` with version = ${{ steps.version.outputs.version }}.")
               if ! out=$(gh pr create \
