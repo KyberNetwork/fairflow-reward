@@ -11,6 +11,7 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"sort"
 	"strings"
 	"time"
 )
@@ -343,9 +344,19 @@ func main() {
 	if len(items) == 0 {
 		fatal(fmt.Errorf("no matching Notion rows found for %s", cycleStr))
 	}
+	// A chain can legitimately have no rewards in a cycle, so a missing chain is
+	// reported but does not fail the sync.
+	missing := make([]string, 0)
 	for name, id := range m.Chains {
 		if _, ok := seenChains[id]; !ok {
-			fatal(fmt.Errorf("no merkle files found for chain %q (id %s) in %s", name, id, cycleStr))
+			missing = append(missing, fmt.Sprintf("%s (id %s)", name, id))
+		}
+	}
+	sort.Strings(missing)
+	for _, chain := range missing {
+		fmt.Fprintf(os.Stderr, "WARNING: no merkle files found for chain %s in %s; skipping\n", chain, cycleStr)
+		if os.Getenv("GITHUB_ACTIONS") == "true" {
+			fmt.Printf("::warning::no merkle files found for chain %s in %s\n", chain, cycleStr)
 		}
 	}
 
