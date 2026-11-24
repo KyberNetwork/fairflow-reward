@@ -1,0 +1,486 @@
+{
+  "startTimestamp": "1795161600",
+  "endTimestamp": "4947724800",
+  "metadata": "Cycle 62 - Robinhood",
+  "salt": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "userDatas": [
+    {
+      "leaf": {
+        "erc721Addr": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+        "erc721Id": "508819",
+        "tokens": [
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+        ],
+        "amounts": [
+          "4705091593642",
+          "8997"
+        ]
+      },
+      "proof": [
+        "0x7b1f56e66c43d3aa64c4634f69ecdc43c957d3247d512b9c1a95a9b846280cbd",
+        "0xa9a6fe7d6fc3d771ca901512f051ae766600218319e80b970510d8447f8834ab",
+        "0x58cc0ea55acfcfa8c5c068c1bfd854e5959174178636bff603c6987eea4917f2",
+        "0x2fb8f7d5e8a778832b122ccd4a557b0492aa1b221e9988ac720e0c264393de15"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+        "erc721Id": "519698",
+        "tokens": [
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+        ],
+        "amounts": [
+          "21752589981271",
+          "34427"
+        ]
+      },
+      "proof": [
+        "0x8f63e3bc6c4d4ea1ac8059b9a99efadc29675757089d12a2e6889ce76d8c5994",
+        "0xb5bb97f256386a15032f5525581b2de2f94d3821e672c9316494eaec019c412f",
+        "0x63a93822314e5a3009ba1e3aaf687adfbe3243f91f00ed83170bf8714c7f6dc0",
+        "0x2fb8f7d5e8a778832b122ccd4a557b0492aa1b221e9988ac720e0c264393de15"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+        "erc721Id": "719321",
+        "tokens": [
+          "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+        ],
+        "amounts": [
+          "34355",
+          "21823732967103"
+        ]
+      },
+      "proof": [
+        "0x03c462a19dc900f8868d6e10f0778bab12b7bee6063635e674f7bf9054cbc197",
+        "0xf4508852a6fe8f62ff7fa75fe71ad4cc10b11e446cc63423f3ad6d3b9089d4f0",
+        "0xac50c955977f112c8f35ac9428288d3e17eca8fa9f1bb2471cbc054220d83185",
+        "0x815c8d4c16faa0c0c71edfc1ecdca8557161006cbcc93a9e2a9ebedd04ebfad3",
+        "0xdd5bdfd8bac056ea87010a3427c8ec260038e9c4d5333be3e6dd48e8669f20a4"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+        "erc721Id": "518234",
+        "tokens": [
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+        ],
+        "amounts": [
+          "6964686701128",
+          "12536"
+        ]
+      },
+      "proof": [
+        "0x828ddfff0511a32817f8d9e736bfa3e0d339e102209065aae07218a9adb0b1d0",
+        "0x358082e25e33e85cc5c1f8adb9e7a959b7047599a874d3893735841dcb5830cb",
+        "0x58cc0ea55acfcfa8c5c068c1bfd854e5959174178636bff603c6987eea4917f2",
+        "0x2fb8f7d5e8a778832b122ccd4a557b0492aa1b221e9988ac720e0c264393de15"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+        "erc721Id": "536339",
+        "tokens": [
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+        ],
+        "amounts": [
+          "99515617406193",
+          "249627"
+        ]
+      },
+      "proof": [
+        "0x3dd057f8b84cb62f956700436086d002027d02d01922fb7eca01d728514bcd24",
+        "0xee4c44fedd3b40448cd0d312efceb67f00111490a2c1c0d65840fd9b6207a712",
+        "0x1e4229226b02c4fc0016617493e065846911bfd963618867252273ffc8ef1362",
+        "0x8e72bdeb62a0159d914654d7606eaf803eeb5008ad14c78879d4d88ad357d511",
+        "0xdd5bdfd8bac056ea87010a3427c8ec260038e9c4d5333be3e6dd48e8669f20a4"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+        "erc721Id": "559420",
+        "tokens": [
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+        ],
+        "amounts": [
+          "2199532909225",
+          "5517"
+        ]
+      },
+      "proof": [
+        "0xb0bf3cf54b72f89752906b70882edad4ff2adcb926099e9207e61acd8e5df9d7",
+        "0x5770e9d02a31eeb668a297d6eac089c1d9e07466a3fef09bf389f31353642207",
+        "0x63a93822314e5a3009ba1e3aaf687adfbe3243f91f00ed83170bf8714c7f6dc0",
+        "0x2fb8f7d5e8a778832b122ccd4a557b0492aa1b221e9988ac720e0c264393de15"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+        "erc721Id": "687295",
+        "tokens": [
+          "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+        ],
+        "amounts": [
+          "3941316",
+          "1571230288050684"
+        ]
+      },
+      "proof": [
+        "0x3a2d1d269d93355f0793eeacf21903d12b789d5ebba49fb9ac61e5f2daa6e525",
+        "0x1f04a92e91ac377b2c1c1d8740db0408287d3e59691826563ad5279e3d3e133e",
+        "0xa8d39ad0d5ebd93cc7187d04a0acf270d3064cb7819d4d787294cb1ae6a40b19",
+        "0x8e72bdeb62a0159d914654d7606eaf803eeb5008ad14c78879d4d88ad357d511",
+        "0xdd5bdfd8bac056ea87010a3427c8ec260038e9c4d5333be3e6dd48e8669f20a4"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+        "erc721Id": "804821",
+        "tokens": [
+          "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+        ],
+        "amounts": [
+          "11223615",
+          "4248269353940187"
+        ]
+      },
+      "proof": [
+        "0x1b1acbc99cd3d818c13574f1f028fddeff79b042ca91db3ff707c1941ce6a652",
+        "0x7f01b6b7628f92ea6f8a518cf1095999802f2bee92fa076b9ed6d8282ae10a9c",
+        "0xa8d39ad0d5ebd93cc7187d04a0acf270d3064cb7819d4d787294cb1ae6a40b19",
+        "0x8e72bdeb62a0159d914654d7606eaf803eeb5008ad14c78879d4d88ad357d511",
+        "0xdd5bdfd8bac056ea87010a3427c8ec260038e9c4d5333be3e6dd48e8669f20a4"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+        "erc721Id": "839665",
+        "tokens": [
+          "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+        ],
+        "amounts": [
+          "339528233",
+          "135355075240135123"
+        ]
+      },
+      "proof": [
+        "0xbca45453a4dfe2fc6a3b7a07035a7c003b50be8ef5b8e198cf04c0d00599bb4a",
+        "0xac50c955977f112c8f35ac9428288d3e17eca8fa9f1bb2471cbc054220d83185",
+        "0x815c8d4c16faa0c0c71edfc1ecdca8557161006cbcc93a9e2a9ebedd04ebfad3",
+        "0xdd5bdfd8bac056ea87010a3427c8ec260038e9c4d5333be3e6dd48e8669f20a4"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+        "erc721Id": "4157238",
+        "tokens": [
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+        ],
+        "amounts": [
+          "168758812016012",
+          "514504"
+        ]
+      },
+      "proof": [
+        "0x93c0c8372b256f32d80f20b2b2254ff397700c31c6e5668c7a410dacfecade53",
+        "0xb5bb97f256386a15032f5525581b2de2f94d3821e672c9316494eaec019c412f",
+        "0x63a93822314e5a3009ba1e3aaf687adfbe3243f91f00ed83170bf8714c7f6dc0",
+        "0x2fb8f7d5e8a778832b122ccd4a557b0492aa1b221e9988ac720e0c264393de15"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+        "erc721Id": "480302",
+        "tokens": [
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+        ],
+        "amounts": [
+          "460586827220594",
+          "1155348"
+        ]
+      },
+      "proof": [
+        "0xedb2123db380f3e808a8337c879562925d72969dc889af2eef663908f2d0a190",
+        "0xecd6ca490a715836fe33fd5bd736147a66aaf0e29b2e2c1ffa15ee432386bbcd",
+        "0x815c8d4c16faa0c0c71edfc1ecdca8557161006cbcc93a9e2a9ebedd04ebfad3",
+        "0xdd5bdfd8bac056ea87010a3427c8ec260038e9c4d5333be3e6dd48e8669f20a4"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+        "erc721Id": "536189",
+        "tokens": [
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+        ],
+        "amounts": [
+          "5906358417982",
+          "17361"
+        ]
+      },
+      "proof": [
+        "0x49781bfe0f02f3517c837a255c4d71e739b7a51db2e933e72dad4ef1cf361b8c",
+        "0x730bab49140c4b4efd3eb5d4cdd0ae5f901fe2893e71206df2dfcbc9da77b1dd",
+        "0x1e4229226b02c4fc0016617493e065846911bfd963618867252273ffc8ef1362",
+        "0x8e72bdeb62a0159d914654d7606eaf803eeb5008ad14c78879d4d88ad357d511",
+        "0xdd5bdfd8bac056ea87010a3427c8ec260038e9c4d5333be3e6dd48e8669f20a4"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+        "erc721Id": "2175114",
+        "tokens": [
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+        ],
+        "amounts": [
+          "60793479057099253",
+          "161439702"
+        ]
+      },
+      "proof": [
+        "0x8e2e945c779637f2216f7da1894c035a9949d2e77a598861e59e719378debcf2",
+        "0x358082e25e33e85cc5c1f8adb9e7a959b7047599a874d3893735841dcb5830cb",
+        "0x58cc0ea55acfcfa8c5c068c1bfd854e5959174178636bff603c6987eea4917f2",
+        "0x2fb8f7d5e8a778832b122ccd4a557b0492aa1b221e9988ac720e0c264393de15"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+        "erc721Id": "3999420",
+        "tokens": [
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+        ],
+        "amounts": [
+          "2231291199776",
+          "5258"
+        ]
+      },
+      "proof": [
+        "0x976c4b9b493c084408453671a7587132482356bb4d65ba2f48b072742b3f5d27",
+        "0x5770e9d02a31eeb668a297d6eac089c1d9e07466a3fef09bf389f31353642207",
+        "0x63a93822314e5a3009ba1e3aaf687adfbe3243f91f00ed83170bf8714c7f6dc0",
+        "0x2fb8f7d5e8a778832b122ccd4a557b0492aa1b221e9988ac720e0c264393de15"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+        "erc721Id": "1857922",
+        "tokens": [
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+        ],
+        "amounts": [
+          "506933027759007",
+          "1321151"
+        ]
+      },
+      "proof": [
+        "0x294233df05185ae22e9e0d57ef19c9949094ba814b115339cbfc149ed6485928",
+        "0x7f01b6b7628f92ea6f8a518cf1095999802f2bee92fa076b9ed6d8282ae10a9c",
+        "0xa8d39ad0d5ebd93cc7187d04a0acf270d3064cb7819d4d787294cb1ae6a40b19",
+        "0x8e72bdeb62a0159d914654d7606eaf803eeb5008ad14c78879d4d88ad357d511",
+        "0xdd5bdfd8bac056ea87010a3427c8ec260038e9c4d5333be3e6dd48e8669f20a4"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+        "erc721Id": "536202",
+        "tokens": [
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+        ],
+        "amounts": [
+          "42671715001371",
+          "125422"
+        ]
+      },
+      "proof": [
+        "0x42e99b1b05cff499d093080c7c1dc4e82e74999bd75013752379c0a9ee9e6f84",
+        "0xee4c44fedd3b40448cd0d312efceb67f00111490a2c1c0d65840fd9b6207a712",
+        "0x1e4229226b02c4fc0016617493e065846911bfd963618867252273ffc8ef1362",
+        "0x8e72bdeb62a0159d914654d7606eaf803eeb5008ad14c78879d4d88ad357d511",
+        "0xdd5bdfd8bac056ea87010a3427c8ec260038e9c4d5333be3e6dd48e8669f20a4"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+        "erc721Id": "1016544",
+        "tokens": [
+          "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+        ],
+        "amounts": [
+          "9726",
+          "3803480316216"
+        ]
+      },
+      "proof": [
+        "0x741faae1ce96e891efc66ed4ef5d9a2a42b2622ef1f81a0be23893fd0ae4e141",
+        "0x730bab49140c4b4efd3eb5d4cdd0ae5f901fe2893e71206df2dfcbc9da77b1dd",
+        "0x1e4229226b02c4fc0016617493e065846911bfd963618867252273ffc8ef1362",
+        "0x8e72bdeb62a0159d914654d7606eaf803eeb5008ad14c78879d4d88ad357d511",
+        "0xdd5bdfd8bac056ea87010a3427c8ec260038e9c4d5333be3e6dd48e8669f20a4"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+        "erc721Id": "2262799",
+        "tokens": [
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+        ],
+        "amounts": [
+          "349507583495",
+          "669"
+        ]
+      },
+      "proof": [
+        "0xde53f117645475f80a08dc4ed14d5ae75310954735fc7ab5f02ac029873df7de",
+        "0xecd6ca490a715836fe33fd5bd736147a66aaf0e29b2e2c1ffa15ee432386bbcd",
+        "0x815c8d4c16faa0c0c71edfc1ecdca8557161006cbcc93a9e2a9ebedd04ebfad3",
+        "0xdd5bdfd8bac056ea87010a3427c8ec260038e9c4d5333be3e6dd48e8669f20a4"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+        "erc721Id": "3374923",
+        "tokens": [
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+        ],
+        "amounts": [
+          "137010519614770",
+          "328442"
+        ]
+      },
+      "proof": [
+        "0x0765dfdcf1c5f9bff0575cb39448ebe7aa09bdefece68b1343c0b7b1c47e2ab2",
+        "0xf4508852a6fe8f62ff7fa75fe71ad4cc10b11e446cc63423f3ad6d3b9089d4f0",
+        "0xac50c955977f112c8f35ac9428288d3e17eca8fa9f1bb2471cbc054220d83185",
+        "0x815c8d4c16faa0c0c71edfc1ecdca8557161006cbcc93a9e2a9ebedd04ebfad3",
+        "0xdd5bdfd8bac056ea87010a3427c8ec260038e9c4d5333be3e6dd48e8669f20a4"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+        "erc721Id": "3096280",
+        "tokens": [
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+        ],
+        "amounts": [
+          "10070092022279671",
+          "26056294"
+        ]
+      },
+      "proof": [
+        "0x3d04888deea128732ec474457d42644f9cd93706eb65474c42c58186476f7d54",
+        "0x1f04a92e91ac377b2c1c1d8740db0408287d3e59691826563ad5279e3d3e133e",
+        "0xa8d39ad0d5ebd93cc7187d04a0acf270d3064cb7819d4d787294cb1ae6a40b19",
+        "0x8e72bdeb62a0159d914654d7606eaf803eeb5008ad14c78879d4d88ad357d511",
+        "0xdd5bdfd8bac056ea87010a3427c8ec260038e9c4d5333be3e6dd48e8669f20a4"
+      ]
+    },
+    {
+      "leaf": {
+        "erc721Addr": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+        "erc721Id": "536229",
+        "tokens": [
+          "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+        ],
+        "amounts": [
+          "45164320159018",
+          "132748"
+        ]
+      },
+      "proof": [
+        "0x8237506b7afe7b83644a97ded69e3b048272acbdd59b317f12418c1358121c6a",
+        "0xa9a6fe7d6fc3d771ca901512f051ae766600218319e80b970510d8447f8834ab",
+        "0x58cc0ea55acfcfa8c5c068c1bfd854e5959174178636bff603c6987eea4917f2",
+        "0x2fb8f7d5e8a778832b122ccd4a557b0492aa1b221e9988ac720e0c264393de15"
+      ]
+    }
+  ],
+  "tree": [
+    "0xa7f6b1f76f4b34a0eb6eda896901f377ff8f78ca42ef85e5c57668ebeb248cbf",
+    "0x2fb8f7d5e8a778832b122ccd4a557b0492aa1b221e9988ac720e0c264393de15",
+    "0xdd5bdfd8bac056ea87010a3427c8ec260038e9c4d5333be3e6dd48e8669f20a4",
+    "0x815c8d4c16faa0c0c71edfc1ecdca8557161006cbcc93a9e2a9ebedd04ebfad3",
+    "0x8e72bdeb62a0159d914654d7606eaf803eeb5008ad14c78879d4d88ad357d511",
+    "0x58cc0ea55acfcfa8c5c068c1bfd854e5959174178636bff603c6987eea4917f2",
+    "0x63a93822314e5a3009ba1e3aaf687adfbe3243f91f00ed83170bf8714c7f6dc0",
+    "0xa8d39ad0d5ebd93cc7187d04a0acf270d3064cb7819d4d787294cb1ae6a40b19",
+    "0x1e4229226b02c4fc0016617493e065846911bfd963618867252273ffc8ef1362",
+    "0xecd6ca490a715836fe33fd5bd736147a66aaf0e29b2e2c1ffa15ee432386bbcd",
+    "0xac50c955977f112c8f35ac9428288d3e17eca8fa9f1bb2471cbc054220d83185",
+    "0xb5bb97f256386a15032f5525581b2de2f94d3821e672c9316494eaec019c412f",
+    "0x5770e9d02a31eeb668a297d6eac089c1d9e07466a3fef09bf389f31353642207",
+    "0xa9a6fe7d6fc3d771ca901512f051ae766600218319e80b970510d8447f8834ab",
+    "0x358082e25e33e85cc5c1f8adb9e7a959b7047599a874d3893735841dcb5830cb",
+    "0xee4c44fedd3b40448cd0d312efceb67f00111490a2c1c0d65840fd9b6207a712",
+    "0x730bab49140c4b4efd3eb5d4cdd0ae5f901fe2893e71206df2dfcbc9da77b1dd",
+    "0x7f01b6b7628f92ea6f8a518cf1095999802f2bee92fa076b9ed6d8282ae10a9c",
+    "0x1f04a92e91ac377b2c1c1d8740db0408287d3e59691826563ad5279e3d3e133e",
+    "0xbca45453a4dfe2fc6a3b7a07035a7c003b50be8ef5b8e198cf04c0d00599bb4a",
+    "0xf4508852a6fe8f62ff7fa75fe71ad4cc10b11e446cc63423f3ad6d3b9089d4f0",
+    "0xedb2123db380f3e808a8337c879562925d72969dc889af2eef663908f2d0a190",
+    "0xde53f117645475f80a08dc4ed14d5ae75310954735fc7ab5f02ac029873df7de",
+    "0xb0bf3cf54b72f89752906b70882edad4ff2adcb926099e9207e61acd8e5df9d7",
+    "0x976c4b9b493c084408453671a7587132482356bb4d65ba2f48b072742b3f5d27",
+    "0x93c0c8372b256f32d80f20b2b2254ff397700c31c6e5668c7a410dacfecade53",
+    "0x8f63e3bc6c4d4ea1ac8059b9a99efadc29675757089d12a2e6889ce76d8c5994",
+    "0x8e2e945c779637f2216f7da1894c035a9949d2e77a598861e59e719378debcf2",
+    "0x828ddfff0511a32817f8d9e736bfa3e0d339e102209065aae07218a9adb0b1d0",
+    "0x8237506b7afe7b83644a97ded69e3b048272acbdd59b317f12418c1358121c6a",
+    "0x7b1f56e66c43d3aa64c4634f69ecdc43c957d3247d512b9c1a95a9b846280cbd",
+    "0x741faae1ce96e891efc66ed4ef5d9a2a42b2622ef1f81a0be23893fd0ae4e141",
+    "0x49781bfe0f02f3517c837a255c4d71e739b7a51db2e933e72dad4ef1cf361b8c",
+    "0x42e99b1b05cff499d093080c7c1dc4e82e74999bd75013752379c0a9ee9e6f84",
+    "0x3dd057f8b84cb62f956700436086d002027d02d01922fb7eca01d728514bcd24",
+    "0x3d04888deea128732ec474457d42644f9cd93706eb65474c42c58186476f7d54",
+    "0x3a2d1d269d93355f0793eeacf21903d12b789d5ebba49fb9ac61e5f2daa6e525",
+    "0x294233df05185ae22e9e0d57ef19c9949094ba814b115339cbfc149ed6485928",
+    "0x1b1acbc99cd3d818c13574f1f028fddeff79b042ca91db3ff707c1941ce6a652",
+    "0x0765dfdcf1c5f9bff0575cb39448ebe7aa09bdefece68b1343c0b7b1c47e2ab2",
+    "0x03c462a19dc900f8868d6e10f0778bab12b7bee6063635e674f7bf9054cbc197"
+  ],
+  "root": "0xa7f6b1f76f4b34a0eb6eda896901f377ff8f78ca42ef85e5c57668ebeb248cbf",
+  "totalAmounts": {
+    "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": "213568523072351721",
+    "0x5fc5360d0400a0fd4f2af552add042d716f1d168": "546145248"
+  }
+}
